@@ -27,7 +27,7 @@ This file contains a per-message level resolution detail of the following:
 This file contains a per-message level resolution detail of the following:
 
 | Name | Purpose |
-| ---- | ------- |
+| ----- | ----- |
 | date | Date the message was sent |
 | time | Time the message was sent |
 | words_per | Number of words in the message |
@@ -37,9 +37,7 @@ This file contains a per-message level resolution detail of the following:
 Installation
 ------------
 
-Check out the repository, and then run `yarn install`
-
-Then run `decompose.js` once you have downloaded your TalkSpace history.
+Check out the repository, and run `yarn install`
 
 Manual History download
 -----------------------
@@ -47,7 +45,7 @@ Manual History download
 You'll need to open the developer tools on your browser and grab the latest POST
 action and copy it as a CURL command.
 
-Change `limit` to something absurd like `4000000`  
+Change `limit` to something absurd like `4000000`
 Change `max_id` to `0`
 
 Save the output to `talkspace.json` in this directory.
@@ -55,4 +53,4 @@ Save the output to `talkspace.json` in this directory.
 Execution
 ---------
 
-Then run
+Then run `decompose.js` once you have downloaded your TalkSpace history.

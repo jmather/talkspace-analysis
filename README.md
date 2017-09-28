@@ -45,7 +45,7 @@ Manual History download
 You'll need to open the developer tools on your browser and grab the latest POST
 action and copy it as a CURL command.
 
-Change `limit` to something absurd like `4000000`
+Change `limit` to something absurd like `4000000`  
 Change `max_id` to `0`
 
 Save the output to `talkspace.json` in this directory.

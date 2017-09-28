@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "csv-writer": "^0.0.3",
+    "html-entities": "^1.2.1",
+    "lodash": "^4.17.4",
+    "sentence-tokenizer": "^0.0.8",
+    "speakeasy-nlp": "^0.2.12"
+  }
+}

@@ -31,6 +31,7 @@ This file contains a per-message level resolution detail of the following:
 | date | Date the message was sent |
 | time | Time the message was sent |
 | words_per | Number of words in the message |
+| sentences | A per sentence breakdown of analysis |
 | score | Feeling analysis score of the overall message |
 | text | The original text of the message |
 
